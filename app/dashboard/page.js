@@ -8,8 +8,8 @@ const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY;
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const Page = () => {
-  const [apiResponse, setApiResponse] = useState("Your answer is here .give yoer idea here and build in real life to change you "); // State to store API response
-  const [error, setError] = useState(null); // State to store error messages
+  const [apiResponse, setApiResponse] = useState("Your answer is here .give your idea here and build in real life to change you "); 
+  const [error, setError] = useState(null); 
 
   const model = genAI.getGenerativeModel({
     model: "gemini-2.0-flash-exp",
