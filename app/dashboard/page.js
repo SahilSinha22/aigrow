@@ -4,7 +4,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 
 import  { GoogleGenerativeAI } from "@google/generative-ai";
-const apiKey = process.env.NEXT_PUBLIC_GEMINI_API_KEY;
+const apiKey = "AIzaSyDfce-RAFNX_g_VdXfD-Nod-NMAactLGGQ";
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const Page = () => {
