@@ -1,6 +1,6 @@
 import NextAuth from "next-auth"
 import GithubProvider from "next-auth/providers/github";
-import Google from "next-auth/providers/google";
+
 const handler = NextAuth ({
   //  one or more authentication providers
   providers: [
